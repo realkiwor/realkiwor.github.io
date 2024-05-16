@@ -1,0 +1,147 @@
+.button {
+    background: #516799;
+    background: linear-gradient(#5e75a6, #516799);
+    border: 1px solid #4d6794;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35),
+        0 0 2px rgba(255, 255, 255, 0.15) inset,
+        0 1px 0 rgba(255, 255, 255, 0.15) inset,
+        1px 1px 3px rgba(0, 0, 0, 0.35);
+    color: #ffffff;
+    cursor: pointer;
+    direction: ltr;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 6px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #4d6794;
+}
+
+.button:hover {
+    background: #111111;
+    background: linear-gradient(#333333, #111111);
+    border: 1px solid #000000;
+    text-shadow: 0 1px 0 #000000;
+}
+
+.button.disabled:hover {
+    background: #516799;
+    background: linear-gradient(#5e75a6, #516799);
+    border: 1px solid #4d6794;
+    text-shadow: 0 1px 0 #4d6794;
+}
+
+.button:not(:first-child) {
+    margin-left: 1px;
+    margin-right: 0;
+}
+
+.button:disabled {
+    cursor: default;
+    opacity: 0.5;
+}
+
+.inlineButton {
+    display: inline-block;
+}
+
+.tabButtonContainer {
+    display: block;
+    margin: 6px 0;
+    text-align: right;
+}
+
+.tabButton {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 6px 0;
+    padding: 6px 8px;
+}
+
+.pageButtonContainer {
+    background: #ffffff;
+    background: linear-gradient(#efefef, #ffffff);
+    border-top: 1px solid #678ac7;
+    display: block;
+    margin: 24px 0 0;
+    text-align: center;
+}
+
+.pageButton {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 6px 8px;
+    margin: 12px 6px 12px 2px;
+}
+
+.pageNotice {
+    margin: 18px auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+.contentBox {
+    background: #fefefe;
+    background: linear-gradient(#fefefe, #f3f3f3);
+    border: 1px solid #a9bbdf;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35),
+        0 0 2px rgba(255, 255, 255, 0.15) inset,
+        0 1px 0 rgba(255, 255, 255, 0.15) inset,
+        1px 1px 3px rgba(0, 0, 0, 0.35);
+    margin: 24px auto;
+    padding: 12px;
+    text-align: left;
+    width: 640px;
+}
+
+/* Override the jquery-ui css setting for '.ui-widget input' */
+.ui-widget .pageButton {
+    font-size: 14px;
+}
+
+.summaryWrap {
+    padding: 0 8px;
+    line-height: 1.3em;
+    font-size: 14px;
+}
+
+.summaryWrap p {
+    padding: 6px;
+}
+
+/* Override the jquery-ui css setting for '.ui-widget button' */
+.ui-widget button {
+    font-size: 12px;
+}
+
+.ui-widget {
+    font-family:Arial,Verdana,sans-serif !important;
+    font-size:12px !important;
+}
+
+/* CSS for an empty dialog for things like file upload status */
+.ui-dialog-empty {
+    border-radius: 4px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.75);
+}
+
+.ui-dialog-empty .ui-dialog-titlebar {
+    display: none;
+}
+
+.ui-dialog-empty .ui-dialog-content {
+    min-height: 20px !important;
+    padding: 0;
+}
+
+#customizedNotice a {
+    color: #005BFF;
+}
+
+#customizedNotice a:hover {
+    color: #0056B3;
+}

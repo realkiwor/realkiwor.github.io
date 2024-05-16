@@ -1,0 +1,69 @@
+#help, #download-modal {
+    line-height: 1.2em;
+    text-align: left;
+}
+
+#help ul, #download-modal ul {
+    list-style-type: circle !important;
+    list-style-position: outside !important;
+    line-height: 1.4em !important;
+    font-size: 1em !important;
+}
+
+#help ol, #download-modal ol {
+    list-style-type: decimal !important;
+    list-style-position: outside;
+    line-height: 1.4em;
+    font-size: 1em;
+}
+
+#help li, #download-modal li {
+    display: list-item !important;
+}
+
+#help ol, #help ul, #help ul ol, #help ul ul, #help ol ol {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+#download-modal ol, #download-modal ul, #download-modal ul ol, #download-modal ul ul, #download-modal ol ol {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+#help ol, #help ul, #help dd, #download-modal ol, #download-modal ul, #download-modal dd {
+    margin-left: 40px !important;
+}
+
+#help h2, #download-modal h2 {
+    font-size: 1.2em;
+    padding: 4px 6px 4px 6px;
+    margin: 8px 4px 8px 4px;
+    color: #666666;
+    background-color: #f7f7f7;
+    border: 1px dotted #999999;
+}
+
+#help a:link, #help a:visited {
+    color: #34588E;
+}
+
+#help a:hover {
+    color: #8E3458;
+}
+#help a:active {
+    color: #ff0000;
+}
+
+#help a.index-link {
+    display: block;
+    padding: 3px 0 3px 0;
+    text-align: center;
+    margin: 8px 4px 8px 4px;
+    border: 1px dotted #34588E;
+    background-color: #f7f7f7;
+}
+
+#help .padding, #download-modal .padding {
+    padding: 0 12px 0 12px;
+}

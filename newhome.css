@@ -1,0 +1,682 @@
+#wrapper {
+    width: 100%;
+    min-width: 800px;
+}
+/********************************************************************
+ * LEFT COLUMN
+ */
+#left-col {
+    float: left;
+    width: 407px;
+}
+#left-col .expand {
+    width: 405px;
+    min-height: 768px;
+    padding: 0 5px 0 6px;
+    margin-left: 2px;
+    float: left;
+    border: 1px solid #a9bbdf;
+    background-color: #efefef;
+}
+
+#left-col .tabdata p.description {
+    font-size: 0.85em;
+    line-height: 120%;
+    padding: 2px 4px 0 4px;
+}
+
+
+#left-col .tabdata p.description a{
+    color: #0f1faa;
+}
+
+/* Overite bootstraps extra line-height */
+#left-col input[type="text"] {
+    line-height: normal !important;
+}
+
+/********************************************************************
+ * LEFT COLUMN STYLINGS
+ */
+
+.geoRow p {
+    line-height: 140%;
+    padding: 2px 4px;
+    font-size: 0.9em;
+}
+
+.geoRow table {
+    margin-top: 6px;
+    width: 100%;
+}
+
+.geoRow {
+    border: 1px solid #a9bbdf;
+    background-color: #ffffff;
+    color: #212121;
+}
+.geoRow th {
+    background-color: #efefef;
+    border: 1px solid #b7b7b7;
+    color: #333333;
+    padding: 2px 4px;
+    font-size: 0.9em;
+}
+.geoRow td {
+    color: #212121;
+    border: 1px solid #b7b7b7;
+    padding: 2px 4px;
+    vertical-align: middle;
+    font-size: 0.8em;
+    line-height: 140% !important;
+}
+
+.geoRow td.resultNum {
+    text-align: right;
+}
+.geoRow td a, .geoRow td a:visited {
+    color: #1e3a7a;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.geoRow a:hover, .geoRow a:active {
+    color: #7a3a1e;
+}
+
+.shadedTable tbody tr:nth-child(even) {
+    background-color: #efefef;
+}
+
+#geoErrorMessage {
+    padding: 4px 2px 4px 6px;
+    background-color: #ffffff !important;
+    border: 1px solid #a9bbdf;
+    color: #333333;
+    display: none;
+    margin-bottom: 8px;
+    line-height: 130%;
+}
+
+
+
+
+#tabCircleForm input {
+    width: 50px;
+}
+#tabCircleForm select {
+    width: 70px;
+}
+#tabCircleForm #circleEntryClear {
+    width: 80px;
+}
+
+
+
+
+.unselectable {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+
+
+
+/* Only render the selected dataset table instead of all of them at once. */
+.t4_dataSelectContainer table {
+   display: none;
+}
+
+.t4_dataSelectContainer button {
+    padding: 1px 2px 1px 2px;
+    margin: 1px 0 1px 0;
+}
+
+/* new data */
+#dataforms {
+    width: 100%;
+    font-size: 0.9em;
+}
+
+#right-col {
+    width: auto;
+    margin: 8px 15px 0 424px;
+    clear: none;
+    border: 1px solid #cccccc;
+}
+#coordEntryDialogTemplate {
+    display: none;
+}
+#coordEntryDialogArea input.degreeBox, #coordAddDialogArea input.degreeBox {
+    width: 45px;
+}
+#coordEntryDialogArea input.decimalBox, #coordAddDialogArea input.decimalBox {
+    width: 100px;
+}
+#coordEntryDialogArea div.label, #coordAddDialogArea div.label {
+    margin-top: 4px;
+    margin-right: 8px;
+    width: 75px;
+    text-align: right;
+    float: left;
+}
+#coordEntryDialogArea div.inputs, #coordAddDialogArea div.inputs {
+    margin-top: 4px;
+    float: left;
+}
+#coordEntryDialogArea label, #coordAddDialogArea label {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+}
+#coordEntryDialogArea span {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+}
+#coordEntryDialogArea, #coordAddDialogArea {
+    display: none;
+}
+
+
+#searchCriteriaSummaryButton {
+    padding: .2em .4em .2em 20px;
+    text-decoration: none;
+    position: relative;
+    font-size: 11px;
+    cursor: pointer;
+    color: #333333;
+}
+#searchCriteriaSummaryButton span.ui-icon {
+    margin: 0 5px 0 0;
+    position: absolute;
+    left: .2em;
+    top: 50%;
+    margin-top: -8px;
+    zoom: 1;
+}
+
+#coordAddDialogArea {
+    display: none;
+}
+
+span.ui-dropdownchecklist {
+    width: 220px !important;
+}
+div.ui-dropdownchecklist-dropcontainer
+{
+    width: 220px !important;
+}
+
+#dataset-container {
+    overflow: auto;
+    padding: 0 4px 4px 4px;
+    font-size: 0.9em;
+    height: 523px;
+    border: 1px solid #a9bbdf;
+    background-color: #f8f8f8;
+}
+
+#dataset-container img {
+    color: #000000;
+}
+
+#dataset-container div.categoryHitArea {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4px;
+}
+#dataset-container input {
+    vertical-align: top;
+    margin-top: 1px;
+    margin-right: 2px;
+}
+#dataset-container div {
+    font-size: 0.9em;
+}
+#dataset-container span.collection {
+    display: table;
+    padding: 0;
+}
+.collection .cell {
+    display: table-cell;
+    vertical-align: top;
+
+}
+.collection a .ee-icon {
+    margin-right: 1px;
+}
+#dataset-container span.collection label {
+    padding-left: 2px;
+}
+
+#add-criteria-container {
+    height: 538px;
+    overflow: auto;
+    text-align: left;
+    font-size: 0.9em;
+    background: #f8f8f8;
+    border: 1px solid #678ac7;
+}
+#search-results-container {
+    height: 510px;
+    overflow: auto;
+    border: 1px solid #678AC7;
+    background-color: #ffffff;
+    font-size: 12px;
+    display: block;
+    width: 403px;
+}
+
+#search-results-container a.selected, #rollDialogContent a.selected {
+    background-color: #00ff00;
+}
+
+#search-results-container .message {
+    font-size: 1.125em;
+    font-weight: bold;
+    line-height: 1.5em;
+    padding: 1em;
+}
+
+#format-control, #placename-search, #acquisition-controls, #numresults-control {
+    padding: 0.6em;
+    margin: 0 0 0.6em 0;
+    font-size: 0.9em;
+    border: 1px solid #cccccc;
+}
+#coordEntryArea {
+    margin-top: 0.6em;
+}
+#lat_lon_section, #searchTypeSection {
+    margin-bottom: 6px;
+}
+#latlonfmtdeg, #latlonfmtdec {
+    vertical-align: bottom;
+}
+ul#coordEntryArea {
+    margin: 0 !important;
+}
+
+#searchTypeFormElements, #areaShapeSection {
+    margin-bottom: 10px;
+    background-color: #efefef;
+    border: 1px solid #678ac7;
+    padding: 6px 8px;
+}
+
+.template {
+    display: none;
+}
+
+.sectionList {
+    border-color: #478ac7;
+    border-style: solid;
+    border-width: 1px 1px 0;
+}
+
+.sectionList > .sectionItem {
+    background: #efefef;
+    border-bottom: 1px solid #678ac7;
+    display: block;
+    padding: 6px 8px;
+}
+
+.sectionList > .sectionItem:nth-child(even) {
+    background: #e6edfa;
+}
+
+.sectionItem > div {
+    display: table-cell;
+    padding: 0 4px;
+    vertical-align: middle;
+}
+
+.sectionItem > div.content {
+    width: 100%;
+}
+
+.sectionItem > div.action {
+    padding: 0 2px;
+}
+
+.iconLink {
+    cursor: pointer;
+    border: 0;
+}
+
+.control-dms input[type="text"] {
+    width: 2.5em;
+    vertical-align: top;
+}
+
+#numresults-control span {
+    font-size: 0.8em;
+    margin-top: 4px;
+    display: block;
+}
+
+#googleAddress, #gnisLoc {
+    width: 21em;
+}
+
+#tabPathRowForm, #tabAddressForm, #tabCircleForm, #tabUploadForm, #tabCloudCoverForm, #tabResultOptionsForm, #tabPredefinedAreaForm, #tabCalValSiteForm {
+    display: none;
+}
+
+#tabCalValSiteForm select {
+    display: block;
+    width: 100%;
+}
+
+#calValSiteForm label {
+    display: block;
+    font-weight: bold;
+    margin: 6px 0 4px;
+}
+
+#calValSiteForm select {
+    width: 100%;
+}
+
+.control-container div.buttons {
+    margin: 6px 0;
+    display: block;
+    text-align: right;
+}
+
+.geoForm cite {
+    display: block;
+    font-size: 0.9em;
+    line-height: 120%;
+    margin-bottom: 0.5em;
+}
+
+#featureFormElements, #shapeElements {
+    line-height: 100% !important;
+}
+
+#featureFormElements label {
+    display: block;
+    margin: 4px 0 2px 0;
+}
+
+#shapeUS {
+    margin-bottom: 6px;
+}
+
+#shapeElements label {
+    display: block;
+    margin: 6px 0 4px;
+    font-weight: bold;
+}
+
+#featureFormElements input, #featureFormElements select {
+    width: 380px;
+}
+
+#shapeElements input, #shapeElements select {
+    width: 375px;
+}
+
+#featureFormElementsWorld {
+    display: none;
+}
+
+#googleResults, #featureResults {
+    padding: 0.2em;
+    display: none;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#featureResults {
+    font-size: 90%;
+    overflow: hidden;
+}
+
+#googleRow:first-child, #featureRow:first-child {
+    display: none;
+}
+
+#searchCriteriaBox {
+    position: relative;
+    height: auto;
+    padding: 3px 0 3px 5px;
+    background-color: #ffe6bf;
+    border: 1px solid #ffce80;
+}
+
+#searchCriteriaHeader, #searchCriteriaHeader a, #searchCriteriaHeader a:link, #searchCriteriaHeader a:visited {
+    font-size: 0.9em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 0;
+    color: #222222;
+}
+
+#searchCriteria{
+    display: none;
+}
+
+#searchCriteriaStatus{
+    font-size: 0.8em;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.criteriaSpan {
+    font-size: 0.9em;
+}
+
+#showAllContainer {
+    margin-bottom: 4px;
+    background-color: #ffffff;
+    border: 1px solid #a9bbdf;
+    padding: 4px;
+    display: none;
+    line-height: 140%;
+    font-size: 14px;
+}
+
+.resultRowNum, .resultRowBrowse, .resultRowContent {
+    border-top: 1px solid #678AC7;
+    border-bottom: 1px solid #678AC7;
+    vertical-align: middle;
+}
+.resultRowNum, .resultRowBrowse {
+    font-weight: bold;
+    text-align: center;
+}
+.resultRowContent {
+    text-align: left;
+    line-height: 140%;
+    padding: 6px;
+}
+.resultRowContent ul li {
+    white-space: normal;
+}
+.resultRowBrowse img {
+    background: #ffffff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.65);
+    border: 2px solid #ffffff;
+    word-break: break-word !important;
+}
+.resultRowBrowse a {
+    color: #0054F4 !important;
+}
+.resultRowBrowse a:hover {
+    color: #0056B3 !important;
+}
+.resultRowBrowse {
+    width: 90px !important;
+}
+
+.iconContainer {
+    padding: 4px;
+    margin: 2px auto 2px 0;
+    float: left;
+
+    -moz-border-image: none;
+    border-image: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    background: #f3f3f3;
+    background: linear-gradient(#fefefe, #f3f3f3);
+    border: 1px solid #a9bbdf;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.35);
+    color: #000000;
+    border-radius: 2px;
+    overflow: hidden;
+    float: left;
+    cursor: default;
+}
+
+.iconContainer a {
+    text-decoration: none;
+    background-color: transparent;
+    display: inline-block;
+}
+
+.paginationControl a.pageLink , .paginationControl a.pageLinkRoll, .resultPageTable a.approximationLink {
+    margin: 2px;
+    color: #516799;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.paginationControl a.pageLink:hover , .paginationControl a.pageLinkRoll:hover, .resultPageTable a.approximationLink:hover {
+    color: #ad5a5a;
+}
+
+.paginationControl a.disabled {
+    color: #767676 !important;
+    cursor: not-allowed !important;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+.paginationControl a.disabled:hover {
+    color: #767676 !important;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+#showAllBrowseContainer, #showAllFootprintsContainer, #addAllToBulkContainer, #addAllToOrderContainer {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+
+div.areaForm cite {
+    line-height: 120% !important;
+    margin-bottom: 6px;
+    display: block;
+}
+
+div.areaForm div.row {
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+div.areaForm div.row label {
+    width: 30px;
+    text-align: right;
+    margin-right: 6px;
+    float: left;
+}
+
+div.areaForm div.row input {
+    float: left;
+}
+
+
+#eulaDialog {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+#eulaDialogArea div.eulaText {
+    height: 350px;
+    max-height: 350px;
+    overflow: visible;
+    text-align: left;
+    padding: 0 3px 0 1px;
+    font-size: 90%;
+}
+
+#eulaDialogArea div.eulaText pre {
+    background-color: #f3f3f3;
+    border: 1px solid #d7d7d7;
+    margin-bottom: 6px;
+    padding: 6px 8px;
+    line-height: 110%;
+}
+
+
+
+#searchCriteria h2 {
+    font-size: 100%;
+    font-weight: bold;
+    color: #a70602;
+    text-shadow: 1px 1px #efefef;
+    margin: 0 0 2px 0;
+}
+
+#searchCriteria ul {
+    font-size: 80%;
+    margin-left: 12px;
+    list-style: disc inside;
+}
+
+#wrsInputs {
+    padding: 6px 8px;
+    border: 1px solid #678ac7;
+    background-color: #efefef;
+}
+
+#wrsInputs input, #wrsInputs select {
+    margin-right: 4px;
+}
+
+#tabDateRangeForm img.ui-datepicker-trigger {
+    cursor: pointer;
+}
+
+#cloudCoverSlider {
+    margin: 0 10px 10px 10px;
+}
+
+#metadataExportDialog label {
+    font-size: 1.1em;
+}
+
+#metadataExportDialog .form-control {
+    padding: 0 0.75rem !important;
+    width: 250px;
+}
+
+#metadataExportFormElements {
+    display: block;
+    margin: 4px 0 12px;
+}
+
+#metadataExportFormElements strong {
+    display: block;
+    margin: 8px 0 4px;
+}
+
+#metadataExportFormElements select {
+    width: 100%;
+}
+
+.noResultContainer {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 0 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}

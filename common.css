@@ -1,0 +1,332 @@
+@charset "UTF-8";
+/* CSS Document */
+
+footer, #navbar {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+	position: relative;
+}
+
+.leaflet-control-attribution.leaflet-control {
+    display: none;
+}
+
+.leaflet-control-zoom {
+    display: none;
+}
+
+/* #optionsControl {
+    display: none;
+} */
+
+/* .leaflet-control-layers-toggle {
+    display: none;
+} */
+
+.footer, .footer:before, .footer:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#navbar, #navbar:before, #navbar:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#navbar .tmp-container, .footer .tmp-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#navbar .tmp-container a, .footer .tmp-container a {
+	text-decoration: none;
+    background: transparent;
+}
+#navbar .tmp-container a:-webkit-any-link {
+    cursor: auto;
+}
+#navbar .tmp-container:before, #navbar .tmp-container:after, .footer .tmp-container:before, .footer .tmp-container:after {
+    content: " ";
+    display: table;
+}
+#navbar .tmp-container:after, .footer .tmp-container:after {
+    clear: both;
+}
+
+.footer hr {
+	width: 100%;
+}
+
+/* header (only) nav */
+.header-nav {
+	background: #00264c;
+}
+
+.logo-header img {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border: 0;
+	max-width: 100%;
+	height: auto;
+}
+
+.header-search form {
+  float: right;
+  width: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.header-search input[type="search"] {
+	height: 30px;
+	width: 260px;
+	margin-top: 18px;
+}
+.header-search button[type="submit"] {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 15px;
+	border: 0;
+	color: #666;
+	background: transparent;
+	padding: 0;
+	width: 39px;
+	height: 39px;
+	margin-top: 21px;
+}
+
+#navbar input{line-height:normal}
+#navbar input[type="search"]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}
+#navbar input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+#navbar input,button{font-family:inherit;font-size:inherit;line-height:inherit}
+
+
+/* footer (only) css */
+
+.menu.nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.nav:before, .nav:after {
+   content: none;
+}
+
+footer.footer {
+	background: #00264c;
+	padding-bottom: 0px;
+	position: relative;
+	width: 100%;
+	border-top: 1px solid #E5E5E5;
+}
+
+footer.footer ul.menu li a {
+    padding: 5px 0px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+footer.footer ul.menu li:first-of-type {
+    padding-left: 0px;
+}
+
+footer.footer ul.menu li {
+    padding-right: 2px;
+    padding-left: 5px;
+}
+
+footer.footer ul.menu li:after {
+    content: "|";
+    color: #ffffff;
+    padding-top: 5px;
+    padding-left: 7px;
+    font-size: 12px;
+}
+
+footer.footer ul.menu li:last-child:after {
+    content: "";
+}
+
+footer.footer .menu.nav a {
+	padding: 4px 0px;
+	color: #ffffff;
+	font-size: 12px;
+}
+
+footer.footer hr {
+    background-color: #fff;
+    margin: 0.75em 0;
+}
+
+footer.footer .footer-icons {
+	color: #ffffff;
+	font-size: 12px;
+	padding-right: 20px;
+}
+
+footer.footer .footer-icons ul {
+    margin: 0px;
+}
+
+footer.footer .footer-icons ul li {
+    display: inline-block;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+}
+
+footer.footer .footer-icons ul li:last-of-type {
+    margin-right: 0px;
+}
+
+footer.footer .footer-icons ul li a i {
+	color:#fff;
+	font-size: 24px;
+}
+
+/* Font Awesome Social Media icons */
+/*!
+ * Font Awesome Free 5.8.2 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+.footer .fa-wrapper {
+	position: relative
+}
+#navbar .fa , .footer .fa {
+  display: inline-block;
+  /* COMMENTED OUT DUE TO BREAKING STACKED ICON FUNCTIONALITY*/
+  /*font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;*/
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.footer .fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.footer .fa-ul > li {
+  position: relative;
+}
+.footer .fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+#navbar .fa-search:before {
+    content: "\f002";
+}
+.footer .fa-twitter-square:before {
+    content: "\f081";
+}
+.footer .fa-facebook-square:before {
+    content: "\f082";
+}
+.footer .fa-github:before {
+    content: "\f09b";
+}
+.footer .fa-google-plus-square:before {
+    content:"\f0d4";
+}
+.footer .fa-flickr:before {
+    content: "\f16e";
+}
+.footer .fa-youtube-play:before {
+    content: "\f16a";
+}
+.footer .fa-instagram:before {
+    content: "\f16d";
+}
+#navbar .only, .footer .only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* =============LOGO===============*/
+/* THE DEFAULT LOGO HEIGHT IS 65PX:
+If you want the logo to be smaller (50px), comment out the ".logo-header img {height 65px;}" below and remove the comment out slashes and astricks surrounding the ".logo-header img {height: 50px...margin-top: 18px;}" and the header search input (so the search box size is reduced too). 50px is the MINIMUM HEIGHT for the logo. */
+ .logo-header img {
+    height: 65px;
+}
+
+/* =============SEARCH===============*/
+/* THIS HIDES THE SEARCH BOX ON VERY SMALL DEVICES:
+For simplification, search bar is visible on larger screens but is hidden on small screens. If you would prefer not to have the search box at all, you can remove the "@media (max-width:500px) {" and the second closing "}". below */
+@media (max-width:500px) {
+	.header-search form {
+		display: none
+	}
+}
+
+@media only screen and (max-width: 770px) {
+    #navbar h1, .footer h1 {
+        font-size: 21px;
+    }
+}
+
+.btn-primary {
+    background-color:#5e75a6 !important;
+    border-color:#5e75a6 !important;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9 !important;
+    border-color: #0062cc !important;
+}
+
+.btn-success {
+    background-color:#288045 !important;
+    border-color:#288045 !important;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #218838 !important;
+    border-color: #1e7e34 !important;
+}
+
+caption {
+    display: None;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header, .ui-widget-header .ui-state-active,
+a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    background:#516799 !important;
+}
+
+.thead-dark tr td {
+    color: #fff !important;
+    background-color: #343a40 !important;
+    border-color: #454d55 !important;
+}
+
+.table thead td {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table thead td, .table tfoot td {
+    font-weight: bold;
+}
